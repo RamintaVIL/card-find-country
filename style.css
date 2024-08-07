@@ -8,14 +8,14 @@ body * {
 
 /* css kintamieji */
 :root {
-    --dark-blue: #2D4354;
-    --khaki: #73766A;
-    --beige: #FED7A5;
-    --chokolate: #534145;
+    --dark-red: #561C24;
+    --red: #6D2932;
+    --beige: #C7B7A3;
+    --light-beige: #E8D8C4;
 }
 
 body {
-    background-color: var(--dark-blue);
+    background-color: var(--dark-red);
 }
 
 .container {
@@ -33,12 +33,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .enter {
     padding: 12px 20px;
-    border: 2px solid var(--chokolate);
+    border: 2px solid var(--light-beige);
     border-radius: 5px;
     width: 50%;
 }
@@ -55,7 +54,7 @@ body {
 
 #search {
     padding: 12px 20px;
-    border: 2px solid var(--chokolate);
+    border: 2px solid var(--light-beige);
     border-radius: 5px;
     width: 50%;
 }
@@ -65,12 +64,12 @@ body {
 }
 
 #list li {
-    border: 2px solid var(--chokolate);
+    border: 2px solid var(--red);
     padding: 10px;
     background-color: #fff;
     width: 500px;
 }
 
 #list li:hover {
-    background-color: var(--beige);
+    background-color: var(--light-beige);
 }
