@@ -1,0 +1,76 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+/* css kintamieji */
+:root {
+    --dark-blue: #2D4354;
+    --khaki: #73766A;
+    --beige: #FED7A5;
+    --chokolate: #534145;
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.enterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.enter {
+    padding: 12px 20px;
+    border: 2px solid var(--chokolate);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: var(--beige);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#search {
+    padding: 12px 20px;
+    border: 2px solid var(--chokolate);
+    border-radius: 5px;
+    width: 50%;
+}
+
+#list {
+    list-style: none;
+}
+
+#list li {
+    border: 2px solid var(--chokolate);
+    padding: 10px;
+    background-color: #fff;
+    width: 500px;
+}
+
+#list li:hover {
+    background-color: var(--beige);
+}
